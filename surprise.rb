@@ -9,7 +9,7 @@ class Surprise < Formula
   license ""
 
   def install
-	bin.install "surprise"
+	bin.install "plpupdate.bin"
   end
 
   test do
