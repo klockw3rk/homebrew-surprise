@@ -4,15 +4,15 @@
 class Surprise < Formula
   desc ""
   homepage ""
-  url "https://github.com/klockw3rk/merrychristmas/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "f2aa5952190dc42f2f2c62728a377ff90692fab7e16898f1ac45925ed2ca59fb"
+  url "https://github.com/klockw3rk/merrychristmas/archive/refs/tags/v1.1.1.tar.gz"
+  sha256 "fe4718543d2d0a4a6f700b5210a93a715128d71f3651944ff23b843de94f1978"
   license ""
 
   def install
-	bin.install "plpupdate.bin"
+  	bin.install "surprise"
   end
 
   test do
- 
+   
   end
 end
